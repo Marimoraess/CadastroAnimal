@@ -45,7 +45,7 @@
             mysqli_close($con);
         ?>
         <a href="index.html" class="btn">Voltar à página inicial</a>
-        <a href="CadastroPessoa.php" class="btn">Cadastrar outra Pessoa</a>
+        <a href="ListarPessoa.php" class="btn">Consultar Pessoa</a>
     </div>
 </body>
 </html>
