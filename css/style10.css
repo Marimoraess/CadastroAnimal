@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+h1 {
+    color: rgb(235, 96, 96);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Mensagens */
+.message {
+    padding: 15px;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+.message.success {
+    background-color: #2ecc71; /* Verde para sucesso */
+}
+
+.message.error {
+    background-color: #e74c3c; /* Vermelho para erro */
+}
+
+.message h2 {
+    margin-bottom: 10px;
+}
+
+.message p {
+    margin: 0;
+}
+
+/* Botão */
+button {
+    background-color: rgb(235, 96, 96);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e74c3c;
+}

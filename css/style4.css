@@ -1,0 +1,84 @@
+/* Estilo Geral do Corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Fundo cinza claro */
+    color: #333; /* Texto em cinza escuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do Título */
+h1 {
+    color: #ff69b4; /* Rosa */
+    margin: 20px;
+}
+
+/* Estilo do Container de Botões */
+.btn-container {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #32cd32; /* Verde */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #28a745; /* Verde mais escuro no hover */
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #1e7e34; /* Verde ainda mais escuro quando pressionado */
+    transform: translateY(0);
+}
+
+/* Estilo da Tabela */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+    background-color: #ff69b4; /* Rosa */
+    color: #ffffff; /* Texto branco */
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Cinza claro para linhas alternadas */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Cinza mais escuro ao passar o mouse */
+}
+
+/* Estilo dos Links de Ação */
+.action-link {
+    color: #32cd32; /* Verde */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.action-link:hover {
+    color: #28a745; /* Verde mais escuro no hover */
+}

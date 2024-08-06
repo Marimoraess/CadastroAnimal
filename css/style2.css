@@ -1,112 +1,57 @@
-/* Resetando margens e preenchimentos padrão */
-* {
+/* Estilo Geral do Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Branco de fundo */
+    color: #333333; /* Texto padrão em cinza escuro */
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-/* Estilizando o corpo da página */
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    height: 100vh;
+}
+
+/* Estilo do Container */
+.container {
+    background-color: #f8f8f8; /* Um tom suave de branco para o fundo do container */
+    border: 2px solid #32cd32; /* Verde */
+    border-radius: 10px;
     padding: 20px;
-}
-
-/* Estilizando o título */
-h2 {
-    color: #333;
-    margin-bottom: 20px;
-    font-size: 24px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-/* Estilizando o formulário */
-form {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+/* Estilo dos Títulos */
+h1 {
+    color: rgb(209, 43, 43); /* Rosa */
 }
 
-/* Estilizando os grupos de formulário */
-.form-group {
-    margin-bottom: 20px;
+h2.success {
+    color: #32cd32; /* Verde */
 }
 
-/* Estilizando os rótulos do formulário */
-.form-group label {
-    display: block;
-    font-weight: 500;
-    margin-bottom: 8px;
-    color: #555;
-    font-size: 14px;
+h2.error {
+    color: #ff6347; /* Tom de vermelho para erro */
 }
 
-/* Estilizando os campos de entrada */
-.form-group input[type="text"],
-.form-group input[type="email"],
-.form-group select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    font-size: 16px;
-    color: #333;
+/* Estilo da Mensagem de Erro */
+.error-message {
+    color: #ff6347; /* Tom de vermelho para destacar a mensagem de erro */
 }
 
-/* Adicionando um efeito ao foco dos campos */
-.form-group input:focus,
-.form-group select:focus {
-    border-color: #0056b3;
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(0, 86, 179, 0.1);
-}
-
-/* Estilizando o botão de enviar */
-.button-container {
-    text-align: center;
-}
-
-.button-container .btn {
-    background-color: #007bff;
-    color: #ffffff;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 18px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.button-container .btn:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-/* Estilizando os links de ação */
-.btn-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.btn-container .btn-secondary {
-    background-color: #6c757d;
-    color: #ffffff;
+/* Estilo dos Botões */
+.btn {
+    display: inline-block;
+    background-color: rgb(235, 96, 96); /* Rosa */
+    color: #ffffff; /* Texto branco */
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 18px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: bold;
 }
 
-.btn-container .btn-secondary:hover {
-    background-color: #5a6268;
-    transform: scale(1.05);
+.btn:hover {
+    background-color: rgb(228, 60, 60); /* Rosa mais escuro no hover */
 }
+
